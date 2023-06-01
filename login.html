@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fiber App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="login">
+      <div class="wrapper container">
+        <form action="#">
+          <div class="logo"><h1>Fiber</h1></div>
+          <h2>Create your Fiber account</h2>
+          <div class="inputs">
+            <!-- box1 -->
+            <div class="box">
+              <h4>Your Name</h4>
+              <input type="text" placeholder="john doe" required />
+            </div>
+
+            <!-- box2-->
+            <div class="box">
+              <h4>E-Mail</h4>
+              <input type="text" placeholder="johndoe@example.com" required />
+            </div>
+
+            <!-- box1 -->
+            <div class="box">
+              <h4>password</h4>
+              <input
+                type="text"
+                placeholder="At least 8 characters"
+                minlength="8"
+                class="password"
+                required
+              />
+              <img src="Assets/hide password.svg" class="hide-password" />
+            </div>
+          </div>
+          <p>
+            <input type="checkbox" required /> By creating an account on Fiber,
+            you agree to the
+            <a href="#">terms & conditions.</a>
+          </p>
+          <button type="submit">Create Fiber Account</button>
+          <p class="switch">Already have an account? <a href="#">sign in</a></p>
+        </form>
+        <div class="part2">
+          <div class="img">
+            <img src="Assets/Sign Up Image.png" />
+          </div>
+          <h3>Unparalleled Templates</h3>
+          <p>
+            Crafted by a team of professional designers, our templates are
+            eunparalleled in the market.
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
